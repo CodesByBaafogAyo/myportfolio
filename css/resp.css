@@ -1,0 +1,16 @@
+body{
+    padding: 40px;
+    background-color: #121212;  
+    color: grey; /* Add this line to change the text color to white */
+}
+
+.skillset {
+    padding: 32px 24px 32px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}

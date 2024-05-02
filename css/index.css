@@ -1,0 +1,108 @@
+body{
+  padding: 40px;
+  background-color: #121212;  
+}
+
+.frame-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 744px;
+    position: absolute;
+    left: 656px;
+   top: calc(50% - 231px);
+   }
+
+.i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana {
+   text-align: left;
+    position: relative;
+    width: 744px;
+    display: flex;
+   align-items: center;
+   justify-content: flex-start}
+
+.i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana-span {
+   
+           color: #ffffff;
+   
+           font: 700 74px/90px 'Sen', sans-serif;
+   
+           
+           
+       }
+
+.i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana-span2 {
+   
+           color: #ffffff;
+   
+           font: 700 74px/90px 'Sen', sans-serif;
+   
+           
+           text-decoration: underline;
+   
+       }
+
+.i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana-span3 {
+   
+           color: rgba(255, 255, 255, 0.50);
+   
+           font: 700 48px/90px 'Sen', sans-serif;
+   
+           
+           
+       }
+
+.i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana-span4 {
+   
+           color: #8b8b91;
+   
+           font: 700 48px/90px 'Sen', sans-serif;
+   
+           
+           
+       }
+
+.i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana-span5 {
+   
+           color: rgba(255, 255, 255, 0.50);
+   
+           font: 700 48px/90px 'Sen', sans-serif;
+   
+           
+           
+       }
+
+.i-am-passionate-about-building-products-that-are-enjoyable-and-elevate-users-experience {
+    
+   color: rgba(255, 255, 255, 0.50);
+    text-align: left;
+    font: 700 20px/30px 'Sen', sans-serif;
+    position: relative;
+    width: 744px;
+    display: flex;
+   align-items: center;
+   justify-content: flex-start}
+
+
+
+.rectangle-5 {
+   background: linear-gradient(222.23deg, rgba(217, 217, 217, 0.58) 0%,rgba(124, 124, 124, 0.00) 100%);
+    border-radius: 0px 173px 0px 0px;
+    width: 685px;
+    height: 558px;
+    position: absolute;
+    left: 0px;
+   top: 127px;
+   }
+
+.rectangle-1 {
+   border-radius: 0px 173px 0px 0px;
+    width: 685px;
+    height: 555px;
+    position: absolute;
+    left: 2px;
+   top: calc(50% - 277px);
+   }
+

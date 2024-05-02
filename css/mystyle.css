@@ -1,0 +1,127 @@
+
+
+body{
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+.about-me {
+   padding: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    font: 150% 'Sen', sans-serif;
+   }
+
+.about-me2 {
+   color: #ffffff;
+    text-align: left;
+    font: 400 16px 'Sen', sans-serif;
+    position: relative;
+    display: flex;
+   align-items: center;
+   justify-content: flex-start}
+
+
+.about-me-pic{
+    /* width: 50%; */
+    /* margin-left: 80px; */
+    padding: 0 80px 0 80px;
+    /* border: 1px solid red; */
+   
+}
+
+.about-me-text {
+    width: 50%;
+    width: 665px;
+    font-size: 8px !important;
+    font-weight: 200;
+    line-height: 1.5;
+    /* border: 1px solid red; */
+}
+
+.about-me-text h2{
+    font-size: 55px;
+}
+
+.about-me-text p{
+    font-size: 18px;
+    color: #939BA5;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    font:'Sen', sans-serif !important;
+}
+
+.testimonial-intro h2{
+    font-size: 55px;
+    margin-bottom: 0;
+    font:'Sen', sans-serif !important;
+}
+.testimonial-intro p{
+    font-size: 18px;
+    color: #939BA5;
+    
+}
+.testimonial-intro p2{
+    font-size: 16px;
+    color: #EDC1D2;
+}
+.testimonial-details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    font:'Sen', sans-serif;
+    
+}
+
+.testimonial-details .left{
+    width: 50%;
+    margin: 10px;
+    /* border: 1px solid red; */
+}
+
+.testimonial-details .right{
+    width: 50%;
+    margin: 10px;
+    /* border: 1px solid red; */
+     
+}
+
+.testimonial-details-text{
+    padding: 40px 32px 40px 32px;
+    line-height: 1.5;
+    font:  16px/150% 'Sen', sans-serif;
+    
+    /* width: 509px; */
+}
+
+.testimonial-details img{
+    width: 100%;
+    /* width: 509px; */
+}
+
+.testimonial-details-text p2{
+   
+    color:#C9CDD2;
+    font-size: 18px;
+    
+}
+
+.testimonial-details-text p3{
+    color:#5E6978;
+    font-size: 14px;
+
+}
+   

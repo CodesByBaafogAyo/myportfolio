@@ -7,7 +7,8 @@ body{
 /*Start services*/
 
 .my-skills {
-    margin-top: 10rem;
+    margin-top: 4rem;
+    margin-left: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2.5rem;
@@ -18,9 +19,9 @@ body{
   .skill {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
   }
   
   .skill .icon {
@@ -40,8 +41,8 @@ body{
   }
   
   .icon-container {
-    width: 10rem;
-    height: 10rem;
+    width: 5rem;
+    height: 5rem;
     border: 3px solid whitesmoke;
     background-color: grey;
     margin-bottom: 2rem;

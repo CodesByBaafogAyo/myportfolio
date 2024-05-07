@@ -15,7 +15,32 @@
                 <div class="i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana" >
                       <span>
                             <span class="i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana-span">I’m Ibukun<br/>Ayomide-Baafog.<br/>A </span>
-                            <span class="i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana-span2">Product Designer<br/>
+                            <style>
+                          @keyframes example {
+                            0%   {opacity:0;}
+                            50%  {opacity:1;}
+                            100% {opacity:0;}
+                          }
+
+                          .i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana-span2 {
+                            animation-name: example;
+                            animation-duration: 4s;
+                            animation-iteration-count: infinite;
+                          }
+                          </style>
+
+                          <span id="animatedText" class="i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana-span2">Product Designer<br/>
+
+                          <script>
+                          let textElement = document.getElementById('animatedText');
+                          let textArray = ['Product Designer', 'Mobile Developer', 'Virtual Assistant', 'Digital Marketer'];
+                          let index =1;
+
+                          setInterval(function() {
+                            textElement.innerHTML = textArray[index];
+                            index = (index + 1) % textArray.length;
+                          }, 4000);
+                          </script>
                       </span>
                       <span class="i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana-span3">based in </span>
                       <span class="i-m-ibukun-ayomide-baafog-a-product-designer-based-in-accra-ghana-span4">Accra</span>

@@ -39,7 +39,11 @@ body{
    
            font: 700 74px/90px 'Sen', sans-serif;
    
-           
+           background-image: linear-gradient(to top, #ffe838, #fd57bf);
+           -webkit-background-clip: text;
+               background-clip: text;
+               -webkit-text-fill-color: transparent;
+
            text-decoration: underline;
    
        }

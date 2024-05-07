@@ -4,13 +4,56 @@ body{
     color: grey; /* Add this line to change the text color to white */
 }
 
-.skillset {
-    padding: 32px 24px 32px 24px;
+/*Start services*/
+
+.my-skills {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2.5rem;
+    text-align: center;
+    align-items: flex-start;
+  }
+  
+  .skill {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    flex-shrink: 0;
-    position: relative;
-}
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .skill .icon {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .skill .icon p {
+    margin-left: 0.5rem;
+  }
+  
+  .skill h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin: 2rem -0.2rem 2rem 0;
+  }
+  
+  .icon-container {
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid whitesmoke;
+    background-color: grey;
+    margin-bottom: 2rem;
+    display: flex;
+    transform: rotate(45deg);
+  }
+  
+  .icon-container i {
+    color: black;
+    font-size: 5rem;
+    margin: auto;
+    transform: rotate(-45deg);
+  }
+  
+  /*End services*/

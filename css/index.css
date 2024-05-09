@@ -110,3 +110,13 @@ body{
    top: calc(50% - 277px);
    }
 
+.group-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+  .group-1 {
+    flex-direction: column;
+  }
+}

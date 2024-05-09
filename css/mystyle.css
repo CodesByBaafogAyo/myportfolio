@@ -1,5 +1,3 @@
-
-
 body{
     background-color: black;
     color: #fff;
@@ -7,11 +5,10 @@ body{
     padding: 0;
 }
 
-
 .about-me {
    padding: 5%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
     align-items: center;
     justify-content: center;
@@ -29,30 +26,23 @@ body{
    align-items: center;
    justify-content: flex-start}
 
-
 .about-me-pic{
-    /* width: 50%; */
-    /* margin-left: 80px; */
     padding: 0 80px 0 80px;
-    /* border: 1px solid red; */
-   
 }
 
 .about-me-text {
-    width: 50%;
-    width: 665px;
-    font-size: 8px !important;
+    width: 100%;
+    font-size: 16px !important;
     font-weight: 200;
     line-height: 1.5;
-    /* border: 1px solid red; */
 }
 
 .about-me-text h2{
-    font-size: 55px;
+    font-size: 2em;
 }
 
 .about-me-text p{
-    font-size: 18px;
+    font-size: 1em;
     color: #939BA5;
 }
 
@@ -64,39 +54,35 @@ body{
 }
 
 .testimonial-intro h2{
-    font-size: 55px;
+    font-size: 2em;
     margin-bottom: 0;
     font:'Sen', sans-serif !important;
 }
 .testimonial-intro p{
-    font-size: 18px;
+    font-size: 1em;
     color: #939BA5;
     
 }
 .testimonial-intro p2{
-    font-size: 16px;
+    font-size: 1em;
     color: #EDC1D2;
 }
 .testimonial-details{
    
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font:'Sen', sans-serif;
     
 }
 
 .testimonial-details .left{
-    width: 50%;
-
+    width: 100%;
     margin: 0;
-    /* border: 1px solid red; */
 }
 
 .testimonial-details .right{
-    width: 50%;
+    width: 100%;
     margin: 0;
-    /* border: 1px solid red; */
-     
 }
 
 .testimonial-details-text{
@@ -106,25 +92,23 @@ body{
     color: #939BA5;
     font-style: italic;
     justify-content: baseline;
-    /* width: 509px; */
 }
 
 .testimonial-details img{
     width: 100%;
-    /* width: 509px; */
 }
 
 .testimonial-details-text p2{
    
     color:#C9CDD2;
-    font-size: 18px;
+    font-size: 1em;
     font:'Sen', sans-serif !important;
     
 }
 
 .testimonial-details-text p3{
     color:#5E6978;
-    font-size: 14px;
+    font-size: 1em;
     font:'Sen', sans-serif !important;
 
 }
@@ -133,6 +117,7 @@ body{
   .container {
       display: flex;
       align-items: start;
+      flex-direction: column;
   }
 
   .smaller-round-image {
@@ -166,3 +151,34 @@ body{
     align-items: center;
 }
 
+@media (min-width: 768px){
+
+  
+  .about-me {
+    flex-direction: row;
+  }
+
+  .about-me-text {
+    width: 50%;
+  }
+
+  .about-me-text h2{
+    font-size: 55px;
+  }
+
+  .about-me-text p{
+    font-size: 18px;
+  }
+
+  .testimonial-details{
+    flex-direction: row;
+  }
+
+  .testimonial-details .left, .testimonial-details .right{
+    width: 50%;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+}

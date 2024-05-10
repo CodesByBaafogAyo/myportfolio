@@ -55,9 +55,9 @@
     position: fixed;
     bottom: 0;
     text-align: center;
-    right: 5%;
-    left: 5%;
-    width: 90%;
+    right: 10%;
+    left: 10%;
+    width: 80%;
     background: black;
     border-radius: 10px 10px 0 0;
 }
